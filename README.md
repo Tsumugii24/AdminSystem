@@ -98,9 +98,11 @@ npm run dev # localhost:1260
 
 #### Homepage
 
-![image-20240315041737154](C:\Users\YUI\AppData\Roaming\Typora\typora-user-images\image-20240315041737154.png)
+![image-20240315041737154](https://cdn.jsdelivr.net/gh/Tsumugii24/Typora-images@main/images/2024%2F03%2F15%2Fe7bbd8f84b3ce7bd5b8c7e46872f5725-image-20240315041737154-36c743.png)
 
 #### Data Management
+
+
 
 
 
