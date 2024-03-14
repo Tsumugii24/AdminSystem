@@ -1,0 +1,64 @@
+# spring-boot
+*#
+*.iml
+*.ipr
+*.iws
+*.jar
+*.sw?
+*~
+.#*
+.*.md.html
+.attach_pid*
+.classpath
+.factorypath
+.gradle
+.metadata
+.project
+.recommenders
+.settings
+.springBeans
+/code
+MANIFEST.MF
+_site/
+activemq-data
+bin
+build
+!/**/src/**/bin
+!/**/src/**/build
+build.log
+dependency-reduced-pom.xml
+dump.rdb
+interpolated*.xml
+lib/
+manifest.yml
+out
+overridedb.*
+target
+.flattened-pom.xml
+secrets.yml
+.gradletasknamecache
+.sts4-cache
+.git-hooks/
+
+# vue
+.DS_Store
+node_modules/
+/dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
