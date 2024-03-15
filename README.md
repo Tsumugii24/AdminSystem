@@ -60,8 +60,8 @@ $ redis-server
 
 - or start `redis` with `Docker` **(optional)**
 
-```
-$docker run -p 6379:6379 -it redis/redis-stack:latest
+```shell
+$ docker run -p 6379:6379 -it redis/redis-stack:latest
 ```
 
 #### 3. SpringBoot (Backend)
