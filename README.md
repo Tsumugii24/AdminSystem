@@ -1,7 +1,8 @@
-# AdminSystem
+<div align="center"><h2>AdminSystem</h2></div>
+
 ### About
 
-A **SpringBoot + Vue** Administration System that implements basic functions such as adding, deleting, modifying, and querying MySQL Database forms.
+A **SpringBoot + Vue** Administration System that implements basic functions such as adding, deleting, modifying, and querying MySQL Database forms. 😄
 
 
 
@@ -46,27 +47,29 @@ source xdb.sql # create example mysql data
 
 #### 2. Redis
 
-- open `redis` with `Scoop`
+- start `redis` with `Scoop`
 
 ```shell
-scoop update
-scoop install redis
-cd C:\Users\<your_user_name>\scoop\apps\redis\7.0.15
-redis-server
+$scoop update
+$scoop install redis
+$cd C:\Users\<your_user_name>\scoop\apps\redis\7.0.15
+$redis-server
 ```
 
-- open `redis` with `Docker`
+![image-20240315205953935](https://cdn.jsdelivr.net/gh/Tsumugii24/Typora-images@main/images/2024%2F03%2F15%2F58db8ee5921598e258abbeda76f1ccea-image-20240315205953935-cc3d72.png)
+
+- or start `redis` with `Docker` **(optional)**
 
 ```
-docker run -p 6379:6379 -it redis/redis-stack:latest
+$docker run -p 6379:6379 -it redis/redis-stack:latest
 ```
 
 #### 3. SpringBoot (Backend)
 
 ```shell
-scoop install openjdk8-redhat
-cd AdminSystemBackend
-cd ./src/main/java/com/tsumugii/
+$scoop install openjdk8-redhat
+$cd AdminSystemBackend
+$cd ./src/main/java/com/tsumugii/
 ```
 
 &emsp;then `Run XAdminApplication.java`
@@ -76,17 +79,17 @@ cd ./src/main/java/com/tsumugii/
 #### 4. Vue (Frontend)
 
 ```shell
-scoop install nodejs
-node --version # v16.12.0
-npm --version # 8.1.0
-cd AdminSystemFrontend
-npm install
-npm run dev # localhost:1260
+$scoop install nodejs
+$node --version # v16.12.0
+$npm --version # 8.1.0
+$cd AdminSystemFrontend
+$npm install
+$npm run dev # localhost:1260
 ```
 
 ![image-20240315040754368](https://cdn.jsdelivr.net/gh/Tsumugii24/Typora-images@main/images/2024%2F03%2F15%2F6fc19ba73107e701a42f9787468a1b5f-image-20240315040754368-60d506.png)
 
-&emsp;if everything is ok, you can open the `url` and enter the `AdminSystem`
+&emsp;Now that if everything runs smoothly, you can open the `url` and enter  **Administrator System**.
 
 
 
@@ -102,7 +105,7 @@ npm run dev # localhost:1260
 
 #### Data Management
 
-
+![image-20240315210725128](https://cdn.jsdelivr.net/gh/Tsumugii24/Typora-images@main/images/2024%2F03%2F15%2F8952893a068ac7069612b99029aeb0d0-image-20240315210725128-74280a.png)
 
 
 
