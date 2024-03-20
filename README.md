@@ -79,7 +79,7 @@ $ cd ./src/main/java/com/tsumugii/
 #### 4. Vue (Frontend)
 
 ```shell
-$ scoop install nodejs
+$ scoop install nodejs # https://nodejs.org/en/blog/release/v16.12.0 (optional)
 $ node --version # v16.12.0
 $ npm --version # 8.1.0
 $ cd AdminSystemFrontend
