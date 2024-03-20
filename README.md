@@ -52,7 +52,6 @@ $ \exit
 ```shell
 $ scoop update
 $ scoop install redis
-$ cd C:\Users\<your_user_name>\scoop\apps\redis\7.0.15
 $ redis-server
 ```
 
